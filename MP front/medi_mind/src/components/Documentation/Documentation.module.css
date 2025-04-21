@@ -1,0 +1,130 @@
+.documentation-page {
+  padding: 4rem 2rem;
+  min-height: calc(100vh - 64px);
+  background-color: #16161a;
+  color: #ccd6f6;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.page-title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 3rem;
+  color: #64ffda;
+  text-align: center;
+}
+
+.tech-stack,
+.implementation,
+.system-requirements {
+  margin-bottom: 4rem;
+}
+
+.tech-stack h2,
+.implementation h2,
+.system-requirements h2 {
+  font-size: 2.2rem;
+  color: #64ffda;
+  margin-bottom: 2rem;
+}
+
+.tech-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.tech-card,
+.implementation-card {
+  background-color: #2a2a30;
+  border-radius: 20px;
+  padding: 2rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tech-card h3,
+.implementation-card h3 {
+  color: #64ffda;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.tech-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.tech-card ul li {
+  margin-bottom: 1rem;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.tech-card ul li:before {
+  content: '▹';
+  position: absolute;
+  left: 0;
+  color: #64ffda;
+}
+
+.implementation-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.implementation-card p {
+  line-height: 1.8;
+  color: #8892b0;
+}
+
+.requirements-list ul {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.requirements-list ul li {
+  background-color: #2a2a30;
+  padding: 1.5rem;
+  border-radius: 8px;
+  color: #8892b0;
+  position: relative;
+  padding-left: 2.5rem;
+}
+
+.requirements-list ul li:before {
+  content: '⚡';
+  position: absolute;
+  left: 1rem;
+  color: #64ffda;
+}
+
+@media (max-width: 768px) {
+  .documentation-page {
+    padding: 3rem 1rem;
+  }
+  
+  .page-title {
+    font-size: 2.5rem;
+  }
+  
+  .tech-stack h2,
+  .implementation h2,
+  .system-requirements h2 {
+    font-size: 2rem;
+  }
+  
+  .tech-card,
+  .implementation-card {
+    padding: 1.5rem;
+  }
+}

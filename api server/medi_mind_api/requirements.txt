@@ -1,0 +1,10 @@
+flask
+flask-cors
+langchain
+langchain-pinecone
+langchain-google-genai
+python-dotenv
+pinecone-client
+langchain-community
+datetime
+
