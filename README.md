@@ -1,6 +1,7 @@
 # MediMind - AI-Powered Medical Assistant
 
 MediMind is a comprehensive medical AI chat application that provides symptom analysis, diagnosis guidance, and treatment recommendations. The application features user authentication, session management, and personalized chat history.
+CHECK OUT THE WEBSITE : https://medi-mind-sooty.vercel.app/
 
 ## Features
 
